@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/page_d_accueil.css"/>
+	<link rel="apple-touch-icon" sizes="180x180" href="../image/favicon_io/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="../image/favicon_io/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="../image/favicon_io/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<title>Survey</title>
+<body>
+	<header name="Top">
+		<div class="background">
+			<div class="title">
+				<h1>Gabrielle Brie</h1>		
+				<h2>Formation d&#233;veloppeur web</h2>
+				<h2>Reconversion professionnelle</h2>
+			</div>
+		</div>
+	</header>
+	<nav>
+		<a href="page_d_accueil.html" target="_self">Accueil</a>
+		<a href="candidate.html" target="_self">Candidature</a>
+	</nav>
+	<article class="survey">
+		<h1>Parles-moi un peu de toi...</h1>
+		<div class="container">
+			<form >
+				<div class="row">
+					<div class="col_25">
+						<label for="name" class="questions">Comment t'appelles-tu?</label>
+					</div>
+					<div class="col_75">
+						<input type="text" name="name" class="answers" placeholder="Ton prénom...">
+					</div>
+					<div class="col_25">
+						<label for="région" class="questions">D'où viens-tu?</label>
+					</div>
+					<div class="col_75">
+						<select name="région" class="answers">
+							<option>Auvergne-Rhône-Alpes</option>
+							<option>Bourgogne-Franche-Comté</option>
+							<option>Bretagne</option>
+							<option>Centre-Val de Loire</option>
+							<option>Corse</option>
+							<option>Grand Est</option>
+							<option>Hauts-de-France</option>
+							<option>Hauts-de-France</option>
+							<option>Île-de-France</option>
+							<option>Normandie</option>
+							<option>Nouvelle-Aquitaine</option>
+							<option>Occitanie</option>
+							<option>Pays de la Loire</option>
+							<option>Provence-Alpes-Côte d'Azur</option>
+							<option>Guadeloupe</option>
+							<option>Martinique</option>
+							<option>Guyane</option>
+							<option>La Réunion</option>
+							<option>Mayotte</option>
+							<option>&Eacute;tranger</option>
+						</select>
+					</div>
+					<div class="col_25">
+						<label for="état" class="questions">Comment vas-tu aujourd'hui?</label>
+					</div>
+					<div class="col_75">
+							<input type="range" name="état" class="answers">
+					</div>
+					<div class="col_25">
+						<label for="your_email" class="questions">Comment puis-je te joindre?</label>
+					</div>
+					<div class="col_75">
+						<input type="text" name="your_email" class="answers" placeholder="Ton adresse email...">
+					</div>
+					<div class="col_25">
+						<label for="life" class="questions">Que fais-tu dans la vie?</label>
+					</div>	
+					<div class="col_75">
+						<textarea name="life" rows="10" cols="50" class="answers" placeholder="Ton travail, tes loisirs,..."></textarea>
+					</div>
+				</div>
+				<div class="row">	
+					<input type="submit" class="questions" value="Envoyer">
+				</div>
+			</form>
+		</div>
+	<h2>Merci!</h2>
+	</article>
+</body>

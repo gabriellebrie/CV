@@ -1,0 +1,64 @@
+.background {
+  display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
+.background:before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 200px;
+  opacity: 0.7;
+  background-image: url('../image/foret.jpg');
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  background-size: cover;
+}
+
+.title {
+  position: relative;
+}
+
+header {
+	padding: 50px;
+}
+
+@font-face {
+	font-family: metalsmith-font;
+	src: url('../image/metalsmith-font/MetalsmithRegular-x3yMq.ttf');
+}
+
+.title h1 {
+	text-align: center;
+	color: #000000;
+	font-family: metalsmith-font;
+	font-size: 300%;
+	letter-spacing: 5px;
+	margin-top: 20px;
+	padding-bottom: 0;
+	padding: 0;
+}
+
+.title h2 {
+	text-align: center;
+	color: #000000;
+	font-size: 150%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #AACDBB;
+}
+
+a {
+	text-decoration: none;
+}
